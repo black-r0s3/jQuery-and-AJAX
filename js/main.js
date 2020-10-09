@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $('#container').find('.hot').children('.non-solid').addClass('highlight');
+  $('#container').find('.hot').children().last().prev().addClass('highlight');
 });
