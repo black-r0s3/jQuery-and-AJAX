@@ -1,3 +1,5 @@
 $(document).ready(function(){
-  $('#container').find('.hot').children().last().prev().addClass('highlight');
+  $('.box').on('click', function() {
+    $(this).toggleClass('highlight');
+  });
 });
