@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $('#container>>>.non-solid').addClass("highlight");
+  $('#container input:required').addClass("highlight");
 });
