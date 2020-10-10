@@ -1,7 +1,9 @@
-.item{
+.item {
   width: 200px;
   background-color: #DDD;
   padding: 8px;
+  float: left;
+  margin: 4px;
 }
 .item img {
   width:100%;
