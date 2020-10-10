@@ -1,19 +1,16 @@
-.box{
-  width: 100px;
-  height: 100px;
-  background-color: #CFC;
+.item{
+  width: 200px;
+  background-color: #DDD;
+  padding: 8px;
+}
+.item img {
+  width:100%;
 }
 
-.box-button{
-  width: 100px;
-  height: 20px;
-  background-color: #CCF;
-
-  text-align:center;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+.item .name{
+  font-size: 24px;
 }
-.highlight{
-  background-color: #FCC;
+.item .price{
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
