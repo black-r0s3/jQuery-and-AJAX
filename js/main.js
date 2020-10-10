@@ -11,7 +11,8 @@
 
     html+='</div>'
     html+='<div class="price">499</div>'
-    html+='<button type="button" name="button">Add to cart</button>'
+    html+='<button type="button" name="button" class="item-add">Add to cart</button>'
+    html+='<button type="button" name="button" class="item-remove">Remove</button>'
     html+='<br>'
     html+='<a href="#">More Info</a>'
     html+='<div class="more-info">Lorem ipsumm dlor sitt  </div>'
@@ -20,5 +21,8 @@
     $('#container').prepend(html);
 
   });
+    $('#container').on('click','.item-remove', function() {
+      $(this).parent().remove();
 
+    });
 });
