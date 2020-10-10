@@ -14,7 +14,7 @@
     html+='<button type="button" name="button" class="item-add">Add to cart</button>'
     html+='<button type="button" name="button" class="item-remove">Remove</button>'
     html+='<br>'
-    html+='<a href="#">More Info</a>'
+    html+='<a class="more-info-link" href="#">More Info</a>'
     html+='<div class="more-info">Lorem ipsumm dlor sitt  </div>'
 
     html+='</div>'
@@ -23,7 +23,7 @@
   });
     $('#container').on('click', '.more-info-link', function(event) {
       event.preventDefault();
-      $(this).parent().find('.more-info').toggle();
+      $(this).parent().find('.more-info').slideToggle('slow');
 
     });
     $('#container').on('click','.item-remove', function() {
