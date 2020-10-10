@@ -64,4 +64,13 @@ function addItem(id, name, description, price, moreInfo) {
       }
       });
       });
+      $('#newsletter-checkbox').on('change', function() {
+        if ($(this).is(':checked')){
+           $('#newsletter-frequency').fadeIn();
+        } else {
+           $('#newsletter-frequency').fadeOut();
+        }
+
+      });
+      $('#newsletter-checkbox').trigger('change');
 });
