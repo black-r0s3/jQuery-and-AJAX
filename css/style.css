@@ -14,6 +14,11 @@ body {
   color: #FFF;
   padding: 12px;
 }
+
+#newsletter-frequency {
+  display: none;
+}
+
 .item {
   width: 200px;
   background-color: #DDD;
@@ -21,17 +26,20 @@ body {
   float: left;
   margin: 4px;
 }
+
 .item img {
-  width:100%;
+  width: 100%;
 }
 
-.item .name{
+.item .name {
   font-size: 24px;
 }
-.item .price{
+
+.item .price {
   margin-top: 8px;
   margin-bottom: 8px;
 }
-.item .more-info{
+
+.item .more-info {
   display: none;
 }
